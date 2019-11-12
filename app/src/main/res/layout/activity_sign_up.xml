@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+  android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".SignUpActivity">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:src="@drawable/ic_diamond"
+        android:layout_height="80dp">
+
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Creat An Account"
+        android:textColor="#000"
+        android:textSize="18dp"
+        android:textStyle="bold">
+
+    </TextView>
+
+
+    <EditText
+        android:id="@+id/emailET"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email">
+
+    </EditText>
+
+    <EditText
+
+        android:id="@+id/passwordET"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password">
+
+    </EditText>
+
+    <EditText
+
+        android:id="@+id/confirmpasswordET"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirm Password">
+
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <EditText
+
+            android:id="@+id/firstnameET"
+            android:layout_weight="0.5"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="First Name">
+
+        </EditText>
+
+        <EditText
+
+            android:id="@+id/lastnameET"
+            android:layout_weight="0.5"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Last Name">
+
+        </EditText>
+
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/signupBtn"
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
+        android:text="Sign In"
+        android:background="#000"
+        android:textColor="#fff"
+        android:layout_height="wrap_content">
+
+    </Button>
+
+
+
+
+</LinearLayout>
